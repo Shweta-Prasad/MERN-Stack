@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body onload="test()">
+    <div id="parent">
+    <p id="mypara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias earum, similique repellat dicta, dolorem cumque voluptate eveniet illum ut quibusdam vel dolor architecto libero eius, animi beatae reiciendis! Quo, eveniet.</p>
+    <button onclick="addele()"> add </button>
+</div>
+    <script>
+        const test=()=>console.log("loaded")
+        let para=document.getElementById("mypara")
+        //const e1=()=>para.style.backgroundColor="yellow"
+        const e2=()=>para.style.textTransform="uppercase"
+        const e3=()=>para.style.color="red"
+        para.addEventListener("click",()=>para.style.backgroundColor="yellow")
+        const addele=()=>
+        {  
+        let heading=document.createElement("h1")
+        heading.textContent="Hi from DOM"
+        let parent=document.getElementById("parent")
+        parent.appendChild(heading)
+        }
+    </script>
+</body>
+</html>
+
+
+

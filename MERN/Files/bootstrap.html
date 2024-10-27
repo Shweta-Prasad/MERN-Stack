@@ -1,0 +1,231 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head> <!--Background-->
+    <body class="p-3 mb-2 bg-info-subtle text-info-emphasis"></div>>
+        
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">MVP KBTCOE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Help</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+
+        <!-- Alert -->
+        <div class="alert alert-danger" role="alert">
+        Welcome to MVP KBTCOE
+        </div>
+
+        <!-- Badge -->
+        <h1>Student Registration Portal <span class="badge text-bg-info">Sign up</span></h1>
+
+        <!-- Breadcrum -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">College</li>
+            </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">College</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Department</li>
+            </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">College</a></li>
+            <li class="breadcrumb-item"><a href="#">Department</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Branch</li>
+            </ol>
+        </nav>
+
+        <!-- Button -->
+        <!-- Variant -->
+        <button type="button" class="btn btn-primary">Previous</button>
+        <!-- Outline button -->
+        <button type="button" class="btn btn-outline-primary">Next</button><br><br>
+
+        <!-- Large button -->
+        <button type="button" class="btn btn-primary btn-lg">Start Registration</button>
+        <button type="button" class="btn btn-secondary btn-lg">Proceed to Next Step</button><br><br>
+
+        <button type="button" class="btn btn-primary btn-sm">Save Progress</button>
+        <button type="button" class="btn btn-secondary btn-sm">Reset Form</button><br><br>
+
+        <!-- Cards -->
+        <div class="card mx-auto" style="width: 18rem;"> 
+            <!-- mx-auto for keep in center -->
+            <img src="image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Course Preview</h5>
+            <p class="card-text">Discover our new data science program designed for future tech leaders</p>
+            <a href="#" class="btn btn-outline-primary">Preview</a>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="wallpaper2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="wallpaper4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="wallpaper3.jpg" class="d-block w-100" alt="...">
+            </div>
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Collaps -->
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            View All Programs
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            View Instructions
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+        </div><br>
+
+        <!-- Dropdown -->
+        <!-- Example split secondary button -->
+        <div class="btn-group">
+        <button type="button" class="btn btn-secondary">View My Courses</button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+    <!-- Layout-Grid -->
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+        </div>
+      </div>
+
+      <!-- card code in place of column -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card mx-auto" style="width: 18rem;"> 
+                <!-- mx-auto for keep in center -->
+                <img src="image.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Create Student Profile</h5>
+                <p class="card-text">Fill in your personal details, including your student ID, contact information, and educational background</p>
+                <a href="#" class="btn btn-outline-primary">Start Profile</a>
+                </div>
+            </div>
+          </div>
+            <div class="col">
+                <div class="card mx-auto" style="width: 18rem;"> 
+                    <!-- mx-auto for keep in center -->
+                    <img src="image2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Select Courses</h5>
+                    <p class="card-text">Browse through available courses for the current semester. Choose the subjects that match your academic plan</p>
+                    <a href="#" class="btn btn-outline-primary">Browse Courses</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mx-auto" style="width: 18rem;"> 
+                    <!-- mx-auto for keep in center -->
+                    <img src="image3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Confirm & Submit</h5>
+                    <p class="card-text">Review your selected courses and confirm your registration. Ensure all your details are correct before submitting</p>
+                    <a href="#" class="btn btn-outline-primary">Confirm Registration</a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        <!-- Layout-Column  -->
+            <div class="container text-center">
+                <div class="row align-items-start">
+                <div class="bg-warning border border-primary"> <!--size 12-->
+                    1 of 3
+                </div>
+                <div class="bg-warning border border-primary">
+                    2 of 3
+                </div>
+                <div class="bg-warning border border-primary">
+                    3 of 3
+                </div>
+                </div>
+            </div>
+
+</body>
+</html>

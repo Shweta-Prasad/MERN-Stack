@@ -1,0 +1,12 @@
+.stickyexample{
+    position: sticky;
+    top: 10px;
+    background-color: aquamarine;
+    padding: 30px;
+}
+body{
+    margin: 0;
+}
+h1, .container-fluid {
+    margin: 15px;
+}

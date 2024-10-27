@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="test()">
+    <p id="mypara" onclick="e1()" onmouseover="e2()" ondblclick="e3()">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod optio inventore tempore amet cumque, rerum repudiandae quibusdam quia alias temporibus? Cum veniam optio labore quis incidunt! Esse, laboriosam minima.
+    </p>
+
+    <script>
+        const test=()=>console.log("loaded")
+        let para=document.getElementById("mypara")
+
+        const e1=()=>para.style.backgroundColor="yellow"
+        const e2=()=>para.style.textTransform="uppercase"
+        const e3=()=>para.style.color="red"
+        //para.addEventListener("click",()=> para.style.backgroundColor="yellow")
+    </script>
+</body>
+</html>

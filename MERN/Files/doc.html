@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Books to read</h1>  <!---Head Tag--->
+    <h2>Books to read</h2>
+    <h3>Books to read</h3>
+    <h4>Books to read</h4>
+    <h5>Books to read</h5>
+    <h6>Books to read</h6>
+
+    <p>There are a lot of books to read</p> <!---Paragraph Tag--->
+
+    <!---Example of Absolute Link--> <!--Ankel Tag-->
+    <a href="https://edunetfoundation.org/">Edunet Foundation</a><br>
+
+    <!---Example of Relative Link-->
+    <a href="/about.html">Go to About</a><br><br>
+
+    <!--Image Tag-->
+    <hr>
+    <img src="imagedog.png" alt="Image Error"><br>
+    <hr>
+
+    <!--Bold, Italic and Underline Tag-->
+
+    <hr>
+    <b>This is bold</b><br>
+    <i>This is italic</i><br>
+    <u>This is underline</u><br>
+    <hr>
+
+    <big>This is big</big>
+    <small>This is small</small>
+
+    <!--Subscript & Superscript-->
+    <p>CO <sub>2</sub></p>
+    <p>CO <sup>2</sup></p>
+
+    <p>C <sub>6</sub> H <sub>6</sub></p> 
+    <p>C+O <sub>2</sub> = CO <sub>2</sub></p>
+
+    <!--Pre Tag-->
+    <pre>
+        def is_prime(number):
+            if number <= 1:
+                return False
+            for i in range(2, int(number**0.5) + 1):
+                if number % i == 0:
+                    return False
+            return True
+
+        # Example usage
+        num = 29
+        if is_prime(num):
+            print(f"{num} is a prime number")
+        else:
+            print(f"{num} is not a prime number")
+    </pre>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .red{
+        color: red;
+    }
+    .yellow{
+        color: yellow;
+    }
+</style>
+<body>
+    <h1 class="red">Welcome</h1>
+    <h1 class="yellow">Byee</h1>
+    <button onclick="change()">Click</button>
+
+    <script>
+        function change(){
+            document.getElementsByClassName('red')[0].innerHTML = "Byee"; 
+            //content is changed
+            //Here element is called by class name
+            document.getElementsByClassName('yellow')[0].innerHTML = "Hi";
+        }
+    </script>
+</body>
+</html>

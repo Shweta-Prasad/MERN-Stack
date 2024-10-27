@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .red{
+            color: red;
+        }
+        .yellow{
+            color: yellow;
+        }
+        .blue{
+            color: blue;
+        }
+        .orange{
+            color: orange;
+        }
+        .green{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">Enter your name </h1>
+    
+    <button onclick="change1()">Red</button>
+    <button onclick="change2()">Yellow</button>
+    <button onclick="change3()">Blue</button>
+    <button onclick="change4()">Orage</button>
+    <button onclick="change5()">Green</button>
+
+    <script>
+        function change1(){
+            document.getElementById("h1").setAttribute('class','red')
+            //document.getElementById("h1").setAttribute('style','color:red')
+        }
+        function change2(){
+            document.getElementById("h1").setAttribute('class','yellow')
+        }
+        function change3(){
+            document.getElementById("h1").setAttribute('class','blue')
+        }
+        function change4(){
+            document.getElementById("h1").setAttribute('class','orange')
+        }
+        function change5(){
+            document.getElementById("h1").setAttribute('class','green')
+        }
+    </script>
+</body>
+</html>

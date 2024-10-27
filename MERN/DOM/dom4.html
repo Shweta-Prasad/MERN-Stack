@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .red{
+            color: red;
+        }
+        .blue{
+            color: blue;  
+            /* withing Tag, the subtag are called Attribute */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="red">Welcome</h1>
+    <h1 id="h1">Byee</h1>
+    <button onclick="change()">Click</button>
+
+    <script>
+        function change(){
+            document.getElementsByClassName('red')[0].setAttribute('class', 'blue'); //class is keyword and blue is class
+            document.getElementById('h1').setAttribute('style','color:red'); //Inline style //index is not required as id is unique & class can be same
+        }
+    </script>
+</body>
+</html>
